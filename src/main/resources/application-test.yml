@@ -1,0 +1,14 @@
+logging:
+  level:
+    org:
+      springframework: INFO
+
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    password:
+    url: r2dbc:h2:mem:///~/db/testdb
+    username: sa
+    initialize: true
